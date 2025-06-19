@@ -55,11 +55,9 @@ This project designs and implements a robust embedded system that acquires data 
 ## 🧰 Software Tools & Technologies
 
 - **Embedded C/C++** for microcontroller firmware development  
-- **CAN Protocol Stack** libraries (e.g., Microchip CAN, STM32 HAL CAN)  
+- **CAN Protocol Stack** libraries (STM32 HAL CAN)  
 - **Real-Time Operating System (RTOS)** (optional for task scheduling)  
-- **Data Analysis Algorithms** implemented on ECU or cloud platform  
-- **Fleet Management Software** for remote monitoring (custom or third-party)  
-- **Diagnostic Software** for reading and interpreting DTCs  
+- **Data Analysis Algorithms** implemented on ECU or cloud platform   
 - **GSM Module Firmware** for communication protocols (GPRS, MQTT)  
 
 
@@ -101,10 +99,6 @@ This project designs and implements a robust embedded system that acquires data 
 - Reduced downtime with proactive maintenance alerts  
 - Improved fleet management with real-time remote monitoring  
 - Reliable, high-speed communication via CAN protocol  
-
-
-7. Remote Monitoring and Fleet Management Integration
-Using telematics, data collected via CAN can be sent to cloud servers or fleet management software.
-Fleet managers receive real-time insights into vehicle health, driver behavior, fuel efficiency, and compliance.
-Remote diagnostics reduce the need for physical inspections and improve operational efficiency.
+- Fleet managers receive real-time insights into vehicle health, driver behavior, fuel efficiency, and compliance.
+- Remote diagnostics reduce the need for physical inspections and improve operational efficiency.
 
